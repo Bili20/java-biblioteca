@@ -1,0 +1,49 @@
+# Compilados e diretórios de build do Java
+*.class
+target/
+
+# Logs e arquivos temporários
+*.log
+tmp/
+
+# Arquivos gerados pelo Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Arquivos de configuração de IDEs
+
+# IntelliJ IDEA
+*.iml
+.idea/
+out/
+
+# Eclipse
+.project
+.classpath
+.cproject
+.settings/
+bin/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Arquivos de ambiente
+.env
+
+# Arquivos e pastas do Docker (se não fizer parte do versionamento)
+docker-compose.override.yml
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
